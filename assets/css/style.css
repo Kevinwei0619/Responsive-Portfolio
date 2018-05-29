@@ -250,34 +250,30 @@ input[type=submit] {
 }
 
 @media screen and (max-width:640px){
+#logo{
+  width: 100%;
+}
 
-  
-
-  body{
-    color:blue;
-  }
-
+nav{
+  float: left;
+  margin-top:10px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 25%;
+}
 
 
 .auth-image {
   float: none;
-  overflow: auto;
-  width: 400px;
-  height: 350px;
+  width: 350px;
+  height: 300px;
   margin-top: 10px;
   margin-right: 25px;
-  /* clear: both; */
 }
 
   .main-section{
-    overflow: auto;
-    float: right;
-    width: 535px;
-    max-width: 960px;
-    padding: 30px;
-    margin: 0 0 40px;
-    background: #fff;
-    border: 1px solid #ddd;
+    width: 90%;
+    margin: 0px 30px 0px 30px;
    } 
   
    .container {
